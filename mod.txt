@@ -1,18 +1,16 @@
 {
-	"name": "Tmod base 190614",
-	"description": "All of my mods' pre-mod.",
+	"name": "Tmod base 200301",
+	"description": "Some of my mods' pre-mod.",
 	"author": "TK7"
 	"contact": "https://steamcommunity.com/id/2010TK7",
-	"version": "190614",
+	"version": "200301",
 	"image": "T.png",
 	"blt_version": 2,
 	"updates": [
 		{"identifier": "Tbase", "host": {"meta": "https://storage.live.com/items/8C3AB972E7E69B18!118?authkey=!AOZoHHpqnlDeZes"}}
 	],
 	"hooks": [
-		{"hook_id": "lib/managers/dlcmanager", "script_path": "dlcmanager.lua"},
 		{"hook_id": "lib/managers/group_ai_states/groupaistatebesiege", "script_path": "groupaistatebesiege.lua"},
-		{"hook_id": "lib/managers/missionmanager", "script_path": "missionmanager.lua"},
 		{"hook_id": "lib/managers/modifiersmanager", "script_path": "modifiersmanager.lua"},
 		{"hook_id": "lib/tweak_data/groupaitweakdata", "script_path": "groupaitweakdata.lua"},
 		{"hook_id": "lib/tweak_data/playertweakdata", "script_path": "playertweakdata.lua"}
